@@ -57,6 +57,7 @@ count = 0
       if k == "age"
         count += 1
         age += v.to_f
+        binding.pry
       end
     end
   end
