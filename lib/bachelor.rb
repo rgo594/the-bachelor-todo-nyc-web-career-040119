@@ -56,7 +56,7 @@ count = 0
     hash.each do |k,v|
       if k == "age"
         count += 1
-        age += v.to_f
+        age += v
         binding.pry
       end
     end
