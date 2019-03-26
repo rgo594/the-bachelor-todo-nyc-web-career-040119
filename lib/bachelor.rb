@@ -74,6 +74,4 @@ return answer
       end
     end
   end
-  answer = (age/count).round
-return answer
 end
